@@ -1,0 +1,25 @@
+<head>Movies</head>
+
+<table class="table table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">movieName</th>
+        <th scope="col">Synopsis</th>
+        <th scope="col">Star Casts</th>
+        <th scope="col">Crew</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let response of list">
+  
+        <tr>
+          <!-- <pre> {{ response | json}}</pre> -->
+          <td scope="col">{{response.movieId}}</td>
+          <td scope="col">{{response.movieName}}</td>
+          <td scope="col">{{response.movieSynopsis}}</td>
+          <td scope="col">{{response.movieStarCast}}</td>
+          <td scope="col">{{response.movieCrew}}</td>
+          
+      </tr>
+      </tbody>
+  </table>

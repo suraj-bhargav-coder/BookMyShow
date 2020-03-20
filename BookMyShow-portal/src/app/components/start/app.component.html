@@ -1,0 +1,74 @@
+<app-top-bar>
+
+  <body >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">bookmyshow</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+               
+        <ul class="navbar-nav mr-auto">
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li> -->
+         
+          <li class="nav-item dropdown">
+
+            <form [formGroup] = "form">
+              <div class="form-group">
+                <label>City</label>
+              <select formControlName="cities" placeholder="City" ><option *ngFor="let key of keys" [value]="key"> 
+               {{citiesEnum[key]}}</option>
+              </select>
+            </div>
+              </form>
+
+          </li>
+        </ul>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink='/login'>Sign In</button>
+        
+        
+
+        <!-- [routerLink]='["login"] -->
+
+
+
+      </div>
+    </nav>
+    
+    </body>
+
+
+    <!-- <form [formGroup] = "form">
+      <div class="form-group">
+
+      
+    <button placeholder="Categories" *ngFor="let key of key1" [value]="key" >{{categoriesEnum[key]}}</button>
+  </div>
+  </form> -->
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink='/movies'>Movies </button>
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Events</button>
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Activities</button>
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sports</button>
+     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Monuments</button>
+  
+    
+
+
+</app-top-bar>
+
+
+
+{{isShowDashboard}}
+<main class="main">
+<router-outlet></router-outlet>
+</main>
+<!-- *ngIf="isShowDashboard" -->
+<app-footer></app-footer>

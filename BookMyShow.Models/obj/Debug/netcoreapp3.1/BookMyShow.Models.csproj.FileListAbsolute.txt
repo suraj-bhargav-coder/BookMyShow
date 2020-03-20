@@ -1,0 +1,16 @@
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\bin\Debug\netcoreapp3.1\BookMyShow.Models.deps.json
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\bin\Debug\netcoreapp3.1\BookMyShow.Models.dll
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\bin\Debug\netcoreapp3.1\BookMyShow.Models.pdb
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.csprojAssemblyReference.cache
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.AssemblyInfoInputs.cache
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.AssemblyInfo.cs
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.dll
+C:\Users\radix\source\repos\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.pdb
+D:\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.csprojAssemblyReference.cache
+D:\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.AssemblyInfoInputs.cache
+D:\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.AssemblyInfo.cs
+D:\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.dll
+D:\BookMyShow\BookMyShow.Models\obj\Debug\netcoreapp3.1\BookMyShow.Models.pdb
+D:\BookMyShow\BookMyShow.Models\bin\Debug\netcoreapp3.1\BookMyShow.Models.deps.json
+D:\BookMyShow\BookMyShow.Models\bin\Debug\netcoreapp3.1\BookMyShow.Models.dll
+D:\BookMyShow\BookMyShow.Models\bin\Debug\netcoreapp3.1\BookMyShow.Models.pdb
